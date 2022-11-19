@@ -12,3 +12,5 @@ Assume that we have a bucket, the capacity is defined as the number of tokens th
 
 As requests are consuming tokens, we also need to refill them at some fixed rate and time, such that we never exceed the capacity of the bucket. Let’s consider an API that has a rate limit of 100 requests per minute. We can create a bucket with a capacity of 100, and a refill rate of 100 tokens per minute.
 
+
+[TokenBucket.java](TokenBucket.java) gives above logic implementation.
